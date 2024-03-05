@@ -1,0 +1,15 @@
+p {
+    color: darkblue;
+    font-size: 14px;
+}
+
+h2 {
+    color: black;
+    font-size: 18px;
+}
+
+table, td, th {
+    border-style: solid;
+    border-color: crimson;
+}
+
