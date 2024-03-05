@@ -13,3 +13,13 @@ table, td, th {
     border-color: crimson;
 }
 
+p#special-one {
+    color: purple;
+    font-size: 2em;
+}
+
+h1.header {
+    color: darkgreen;
+}
+
+
