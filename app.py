@@ -7,17 +7,21 @@ app = Flask(__name__)
 def hello_world():  # put application's code here
     return 'Hello World from Roy Ad! I am adding my first code change.'
 
-@app.route('/hello')
+
+@app.route('template/hello')
 def hello():
     return render_template('hello.html')
 
-@app.route('/about')
+
+@app.route('template/about')
 def about():
     return render_template('about.html')
 
-@app.route('/about-css')
-def about():
+
+@app.route('template/about-css')
+def css():
     return render_template('about-css.html')
+
 
 if __name__ == '__main__':
     app.run()
